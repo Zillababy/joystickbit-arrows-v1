@@ -3,6 +3,7 @@ radio.setGroup(1)
 basic.showIcon(IconNames.Heart)
 music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
 basic.forever(function () {
+    radio.sendNumber(1)
     if (joystickbit.getRockerValue(joystickbit.rockerType.X) <= 200) {
         radio.sendString("R")
         joystickbit.Vibration_Motor(100)
