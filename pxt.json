@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "joystickbit": "github:tinkertanker/pxt-joystickbit#v1.0.1",
-        "microphone": "*"
+        "microphone": "*",
+        "MaqueenPlus": "github:dfrobot/pxt-dfrobot-maqueenplus#v1.4.4"
     },
     "files": [
         "main.blocks",
